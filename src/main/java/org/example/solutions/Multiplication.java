@@ -1,4 +1,4 @@
-package org.example.solving;
+package org.example.solutions;
 
 import java.io.File;
 import java.io.IOException;

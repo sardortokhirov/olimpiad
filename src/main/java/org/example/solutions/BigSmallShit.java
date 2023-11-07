@@ -1,6 +1,4 @@
-package org.example.solving;
-
-import org.example.SomeShitAlgo;
+package org.example.solutions;
 
 import java.io.File;
 import java.io.IOException;

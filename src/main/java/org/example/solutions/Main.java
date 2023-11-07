@@ -1,7 +1,21 @@
-package org.example.solutions;/**
- * Date-11/1/2023
- * By Sardor Tokhirov
- * Time-10:24 AM (GMT+5)
- */
+package org.example.solutions;
+
+import java.io.*;
+
+
 public class Main {
+    public static void main(String[] args) throws IOException {
+        try (BufferedReader reader = new BufferedReader(new FileReader("input.txt"));
+             BufferedWriter writer = new BufferedWriter(new FileWriter("output.txt"))) {
+
+            int a = Integer.parseInt(reader.readLine()), b = Integer.parseInt(reader.readLine());
+            if (a>b){
+                writer.write("Ali");
+            }else if (a<b){
+                writer.write("Vali");
+            }else {
+                writer.write("Same");
+            }
+        }
+    }
 }
